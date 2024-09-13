@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static "css/index.css" %}">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Bienvenido a mi pagina</h1>
+
+    <ul>
+        <img id="imagen" onclick="location.href='http://127.0.0.1:8000/lebron/'"  src="{%static "img/" %}{{img1}} "   alt="">
+        <img id="imagen" onclick="location.href='http://127.0.0.1:8000/curry/'"  src="{%static "img/" %}{{img2}} "   alt="">
+        <img id="imagen" onclick="location.href='http://127.0.0.1:8000/kevin/'"  src="{%static "img/" %}{{img3}} "   alt="">
+    </ul>
+</body>
+</html>

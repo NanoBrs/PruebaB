@@ -1,0 +1,11 @@
+body{
+    background: rgb(196, 150, 150);
+    text-align: center;
+    align-items: center;
+}
+
+#imagen{
+    max-width: 250px;
+    height: 400px;
+
+}
